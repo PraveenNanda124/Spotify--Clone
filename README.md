@@ -5,5 +5,5 @@ In this repo, I created a spotify clone by using HTMl,CSS and JAVA SCRIPT.In whi
 ![Screenshot (2)](https://user-images.githubusercontent.com/116082827/204100356-6d34310c-9255-4e76-9d1d-a87dcfebaeae.png)
 
 
-[The Link](http://127.0.0.1:5501/index.html)
+ The page link is    [Link](http://127.0.0.1:5501/index.html)
 
