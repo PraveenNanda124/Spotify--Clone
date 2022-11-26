@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: rgb(172, 246, 107);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color: black;
+    color: rgb(203, 242, 86);
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 35px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 50vh;
+    background-color: black;
+    color: rgb(182, 238, 79);
+    font-family: 'varela round',sans-serif;
+    display: flex;
+    /* margin: 23px auto; */
+    width: 80%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('b14.jpg');
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: black;
+    color: rgb(173, 245, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+.icons i{
+    padding: 5PX;
+    cursor: pointer;
+}
+
+#myProgressBar{
+    
+    width: 80vw; 
+    
+    cursor: pointer;
+   
+}
+
+.songItemContainer{
+    margin-top: 50px;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: rgb(213, 245, 108);
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 33px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: rgb(11, 216, 76);
+    }
+  }
